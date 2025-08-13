@@ -1,7 +1,7 @@
 # Milestone 3: Enhancement Two – Algorithms and Data Structure
 
 ## Post-Enhancement
-```plaintext
+```cpp
 #include <iostream>
 #include <fstream>
 #include <unordered_map>
@@ -205,3 +205,4 @@ int main() {
     FileHandler::saveData(OUTPUT_FILENAME, tracker.getFrequencyMap());
     return 0;
 }
+```
