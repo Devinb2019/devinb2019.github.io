@@ -1,5 +1,11 @@
+---
+title: "Pre-Enhancement Code (Shared for All Milestones)"
+layout: default
+---
+
 # Pre-Enhancement Code (Shared for All Milestones)
 
+{% raw %}
 ```cpp
 #include <iostream>
 #include <fstream>
