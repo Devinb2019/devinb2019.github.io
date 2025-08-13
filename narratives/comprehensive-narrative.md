@@ -15,7 +15,7 @@ These trends have shaped my view of software development not just as a technical
 ---
 
 ## Enhancement One: Software Design and Engineering
-The initial enhancement addressed software design by **refactoring the monolithic codebase** into three separate classes—`FileHandler`, `GroceryTracker`, and `MenuManager`—to enforce separation of concerns:contentReference[oaicite:0]{index=0}. Hard-coded strings were replaced with named constants, and duplicate logic was consolidated into a helper function. Defensive programming was introduced to handle invalid input gracefully, while case-insensitive tracking improved usability and data integrity.
+The initial enhancement addressed software design by **refactoring the monolithic codebase** into three separate classes (`FileHandler`, `GroceryTracker`, and `MenuManager`), to enforce separation of concerns. Hard-coded strings were replaced with named constants, and duplicate logic was consolidated into a helper function. Defensive programming was introduced to handle invalid input gracefully, while case-insensitive tracking improved usability and data integrity.
 
 **Key Outcomes Demonstrated:**  
 - **Outcome 1:** Produced modular, well-documented code that is easier for others to read, maintain, and extend, enabling collaborative development.  
@@ -26,7 +26,7 @@ The initial enhancement addressed software design by **refactoring the monolithi
 ---
 
 ## Enhancement Two: Algorithms and Data Structures
-The second enhancement focused on algorithmic efficiency and feature expansion:contentReference[oaicite:1]{index=1}. A `std::map` was replaced with a `std::unordered_map` to achieve average O(1) insertion and lookup times, improving scalability for larger datasets. A sorted frequency display feature was implemented by transferring entries into a vector and using a custom comparator with `std::sort`. This provided users with the ability to view results in descending order of frequency, adding practical value.
+The second enhancement focused on algorithmic efficiency and feature expansion. A `std::map` was replaced with a `std::unordered_map` to achieve average O(1) insertion and lookup times, improving scalability for larger datasets. A sorted frequency display feature was implemented by transferring entries into a vector and using a custom comparator with `std::sort`. This provided users with the ability to view results in descending order of frequency, adding practical value.
 
 **Key Outcomes Demonstrated:**  
 - **Outcome 3:** Applied algorithmic principles to optimize performance and evaluated trade-offs in container selection.  
@@ -35,7 +35,7 @@ The second enhancement focused on algorithmic efficiency and feature expansion:c
 ---
 
 ## Enhancement Three: Databases
-The third enhancement replaced the flat-file storage system with a **SQLite database backend**:contentReference[oaicite:2]{index=2}. This included creating relational storage with item names as primary keys, implementing upsert logic within transactions, migrating legacy data into the database, and exposing new user options for direct database manipulation. These changes provided durability, consistency, and scalability to the application.
+The third enhancement replaced the flat-file storage system with a **SQLite database backend**. This included creating relational storage with item names as primary keys, implementing upsert logic within transactions, migrating legacy data into the database, and exposing new user options for direct database manipulation. These changes provided durability, consistency, and scalability to the application.
 
 **Key Outcomes Demonstrated:**  
 - **Outcome 2:** Produced professional documentation detailing database design choices, migration strategy, and usage instructions.  
